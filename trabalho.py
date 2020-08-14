@@ -1,0 +1,2 @@
+trabalho_terca=True
+trabalho_quinta=False

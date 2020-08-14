@@ -1,0 +1,11 @@
+import pygame
+nome = str(input('Qual seu nome ? '))
+print('Olá {} é um prazer lhe conhecer !'.format(nome))
+r = str(input('O que deseja ?'))
+print('Te farei {}, como foi pedido'.format(r))
+e = str(input('{} o que esta fazendo para ter {} ?.'.format(nome, r)))
+print('{} continue {} e consiguira {}. Boa sorte !! '.format(nome, e, r ))
+pygame.init()
+pygame.mixer_music.load('believe.MP3')
+pygame.mixer_music.play()
+pygame.event.wait()
